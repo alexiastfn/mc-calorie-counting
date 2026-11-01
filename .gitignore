@@ -1,0 +1,14 @@
+# Copied from 2026-mc-labs lab2-compose, plus a few Android Studio / build extras.
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.iml
+.DS_Store
+local.properties
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
