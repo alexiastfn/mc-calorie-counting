@@ -1,7 +1,7 @@
 # Version catalog. Base copied from 2026-mc-labs lab2-compose (verified October 2026);
 # lifecycle, coroutines and junit pins taken from the lab4 posts-app catalog; Coil from the handout.
 [versions]
-agp = "9.4.1"                 # Android Gradle Plugin (built-in Kotlin)
+agp = "9.1.1"                 # Android Gradle Plugin (built-in Kotlin). Lab pins 9.4.1; lowered so Android Studio 2025.3.2 can sync
 kotlin = "2.4.21"              # drives the Compose compiler + serialization plugin versions
 composeBom = "2026.09.00"     # Material 3 (compileSdk 37)
 activityCompose = "1.13.0"
